@@ -17,7 +17,7 @@ def responder(message, history):
     return r.choices[0].message.content
 
 with gr.Blocks() as demo:
-    gr.Markdown("<center><h1>💖 My Kelly</h1><p>Tu novia virtual w</p></center>")
+    gr.Markdown("<center><h1>💖 My Kelly</h1><p>Tu asistente virtual</p></center>")
     chatbot = gr.Chatbot(height=500)
     with gr.Row():
         msg = gr.Textbox(placeholder="Escribe algo bonito amor...", show_label=False, scale=4)
